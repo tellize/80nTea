@@ -1,0 +1,119 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Navbar Styling */
+.navbar {
+    background-color: #fff;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    padding: 1em;
+    box-shadow: 10px 5px rgba(12, 12, 12, 0.25);
+}
+
+.navbar a {
+    color: #000;
+    text-decoration: none;
+    padding: 1em;
+}
+
+.navbar a:hover {
+    background-color: #555;
+}
+
+.content {
+    margin-bottom: 1em;
+}
+
+.content {
+    font-style:italic;
+}
+
+/* Header Styling */
+.header {
+    background-image: url('header-image.jpg');
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    padding: 5em 0 0 0;
+    color: #fff;
+}
+
+/* Content Styling */
+
+/* Footer Styling */
+.footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1em;
+}
+
+/* Image Styling */
+.image-container {
+    text-align: center;
+    margin: 2em 0;
+}
+
+.image-container img {
+    max-width: 100%;
+    height: auto;
+}
+
+.entry {
+    background-color: #000;
+    margin: 2em;
+    padding: 1em;
+    border-radius: 10px;
+    color: #fff;
+}
+
+.entry h2 {
+    margin: 0;
+    color: #488;
+}
+
+.entry h2:hover {
+    animation-name: example;
+    animation-duration: 50s;
+}
+
+#entry18:hover {
+    animation-name: reveal;
+    animation-duration: 50s;
+}
+
+@keyframes example {
+    from {color: #488;}
+    to {color: #d44;}
+}
+
+@keyframes reveal {
+    from {background-color: #000;}
+    to {background-color: #fff;}
+}
+
+.seperator {
+    font-style: italic;
+    text-align: center;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.hidden {
+    color: #000;
+    cursor: default;
+}
+
+.whiteout {
+    color: #FFF;
+    cursor: default;
+}
+
+.blackout::selection {
+    background: #000;
+    color: transparent;
+}
